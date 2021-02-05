@@ -9,7 +9,7 @@ int main() {
     vector<int> arr;
     cin>>number;
     for(int i =1; i<=number; i++){
-        if(number%i==0 & i>0 &i<=10){
+        if(number%i==0 & i>0 & i<=10){
             arr.push_back(i);
         }
     }
