@@ -1,6 +1,3 @@
-//
-// Created by aryan on 08-02-2021.
-//
 #include <bits/stdc++.h>
 #include <string>
 using namespace std;
@@ -29,8 +26,7 @@ int main() {
         for(int i=0; i<n;i++){
             cin>>s;
             if(s.length()>0)
-                m(s.substr(1).push_back(s[0]));
-
+                m[s.substr(1)].push_back(s[0]);
         }
         int result=0;
         for(auto i :m){
